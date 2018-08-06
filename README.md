@@ -78,6 +78,12 @@ A read only demo can be seen [here](http://demo.adminmongo.markmoffat.com)
 * Documents need to have an "_id" value which is a string, integer, or MongoDB ObjectId. Documents using Composite ID indexing is currently not supported.
 * Connection strings with multiple hosts for replica sets are currently not supported.
 
+## TODO Features
+
+- [ ] export to csv and excel
+- [ ] aggregate query
+- [ ] replica sets
+
 ## Configuration
 
 adminMongo will listen on host: `localhost` and  port: `1234` by default. This can be overwritten by adding a config file in `/config/app.json`. For example:
